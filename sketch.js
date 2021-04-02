@@ -1,14 +1,14 @@
 var tom,tomimg1,tomimg2,tomimg3,jerry,bg;
 
 function preload() {
-    tomimg1=loadImage("images/cat1.png")
-    tomimg2=loadImage("images/cat2.png","images/cat2.png")
-    tomimg3=loadImage("images/cat4.png")
+    tomimg1=loadAnimation("images/cat1.png")
+    tomimg2=loadAnimation("images/cat2.png","images/cat2.png")
+    tomimg3=loadAnimation("images/cat4.png")
 
-    mouse1=loadImage("images/mouse1.png");
-    mouse2=loadImage("images/mouse2.png","images/mouse3.png");
-    mouse3=loadImage("images/mouse4.png");
-    bg=loadImage("images/garden.png");
+    mouse1=loadAnimation("images/mouse1.png");
+    mouse2=loadAnimation("images/mouse2.png","images/mouse3.png");
+    mouse3=loadAnimation("images/mouse4.png");
+    bg=loadAnimation("images/garden.png");
 }
     
 function setup(){
